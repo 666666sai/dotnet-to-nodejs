@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Two Input Boxes</title>
+</head>
+<body>
+ <link rel="stylesheet" type="text/css" href="style.css" />
+ <div class="container">
+
+
+<form action="/" method="post">
+    <div class="box">
+        <h2>provide DOTNET code</h2>
+        <textarea name="userText" rows="30" cols="70"></textarea><br>
+        <br><br>
+        <button type="submit" id="submitForm" class="submit">Generate</button>
+    </div>
+</form>
+<div class="box">
+    <h2>Response:</h2>
+   
+    <textarea id="largeTextInput" name="largeTextInput" rows="30" cols="70"> 
+     <% if (response) { %><%= response %><% } %>
+    </textarea><br>
+    <br><br>
+    </div>
+ </div>
+</body>
+</html>

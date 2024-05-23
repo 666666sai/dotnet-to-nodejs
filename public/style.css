@@ -1,0 +1,39 @@
+<style>
+body {
+ font-family: sans-serif;
+}
+.container {
+ display: flex;
+ justify-content: space-around;
+ background-color: lightblue;
+}
+.box {
+ border: 1px solid #ccc;
+ padding: 20px;
+ margin: 20px;
+ background-color: lightgreen;
+}
+button {
+ padding: 10px 20px;
+ background-color: v#4CAF50;
+ color: rgb(109, 98, 92);
+ border: none;
+ cursor: pointer;
+ margin-right: 10px;
+}
+.submit{
+ position: absolute;
+ top: 585px; /* Adjust top position */
+ left: 270px; /* Adjust left position */
+}
+.submit2{
+ position: absolute;
+ top: 585px; /* Adjust top position */
+ left: 950px; /* Adjust left position */
+}
+.response-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+</style>

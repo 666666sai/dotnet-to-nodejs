@@ -1,0 +1,19 @@
+{
+  "name": "connect-to-gpt-4-ffrom-node-express-terminal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "insex.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "gpt",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.47.1",
+    "openai-api": "^1.3.1"
+  }
+}
